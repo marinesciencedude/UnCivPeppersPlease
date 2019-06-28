@@ -651,6 +651,13 @@
 		requiredTech:"Electricity"
 	},
 	{
+		name:"Border Checkpoint",
+		uniqueTo:"Pepperstotzka",
+		specialistSlots:{gold:3},
+		cost:460,
+		requiredTech:"Electricity"
+	},
+	{
 		name:"Big Ben",
 		culture:1,
 		gold:4,
