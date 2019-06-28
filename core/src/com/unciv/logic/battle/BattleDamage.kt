@@ -184,6 +184,8 @@ class BattleDamage{
         val isFriendlyTerritory = tile.getOwner()!=null && !unit.getCivInfo().isAtWarWith(tile.getOwner()!!)
         if(isFriendlyTerritory && unit.getCivInfo().getBuildingUniques().contains("+15% combat strength for units fighting in friendly territory"))
             modifiers["Himeji Castle"] = 0.15f
+        if(isFriendlyTerritory && unit.unit.hasUnique("+25% bonus inside friendly territory"))
+			modifiers["Pepperstotzkan Propaganda Brainwashing"] = 0.25f
         if(!isFriendlyTerritory && unit.unit.hasUnique("+20% bonus outside friendly territory"))
             modifiers["Foreign Land"] = 0.2f
 
