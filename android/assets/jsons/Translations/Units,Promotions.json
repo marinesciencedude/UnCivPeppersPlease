@@ -864,6 +864,24 @@
 		Simplified_Chinese:"境外"
 		French:"Terre étrangère"
 	}
+
+	"Border Guard":{
+		Italian:"Border Guard"
+		Simplified_Chinese:"Border Guard"
+		French:"Border Guard"
+	}
+
+	"+25% bonus inside friendly territory":{
+		Italian:"+25% Forza dentro da territorio amico",
+		Simplified_Chinese:"在友好区作战时战斗力+25%",
+		French:"+25% bonus lors de combat à l'interiour d'un territoire allié"
+	}
+	
+	"Pepperstotzkan Propaganda Brainwashing":{
+		Italian:"Pepperstotzkan Propaganda Brainwashing",
+		Simplified_Chinese:"Pepperstotzkan Propaganda Brainwashing",
+		French:"Pepperstotzkan Propaganda Brainwashing"
+	}
 	
 	"Destroyer":{
 		Italian:"Cacciatorpediniere"
