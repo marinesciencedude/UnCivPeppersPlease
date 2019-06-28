@@ -1000,6 +1000,22 @@
 		attackSound:"shot"
 	},
 	{
+		name:"Border Guard",
+		unitType:"Melee",
+		replaces:"Infantry",
+		uniqueTo:"Pepperstotzka",
+		movement:2,
+		strength:55,
+		cost: 300,
+		requiredTech:"Plastics",
+		upgradesTo:"Mechanized Infantry",
+		obsoleteTech:"Nuclear Fission",
+		uniques:["+25% bonus inside friendly territory"],
+		promotions:["Scouting I"],
+		hurryCostModifier:20,
+		attackSound:"shot"
+	},
+	{
 		name:"Machine Gun",
 		unitType:"Ranged",
 		range:1,
