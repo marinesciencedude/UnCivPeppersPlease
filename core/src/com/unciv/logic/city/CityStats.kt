@@ -117,6 +117,13 @@ class CityStats {
         val civUnique = cityInfo.civInfo.getNation().unique
         if(civUnique == "+2 Culture per turn from cities before discovering Steam Power")
             stats.culture += 2
+        if(civUnique == "-1 Hapiness Per City, +1 Production per 5 Citizens, -1 Food per 5 Citizens") {
+			population = cityInfo.population.population
+			stats.happiness -= 1
+			while ((population /= 5) > 4)
+				stats.production +=1
+				stats.food -= 1
+		}
 
         return stats
     }
