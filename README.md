@@ -25,7 +25,6 @@ Made with LibGDX on Android Studio
 # What's next?
 
 * Border Checkpoint eplacing Police Station (when added)
-* Bonuses to sight for Border Guard
 * [Cobrastan](https://steamcommunity.com/sharedfiles/filedetails/?id=848510600) civilisation
 
 # Desktop play
