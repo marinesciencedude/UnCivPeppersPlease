@@ -65,6 +65,10 @@ class CityInfo {
             cityConstructions.currentConstruction = Constants.worker // Default for first city only!
         }
 
+        val civUnique = cityInfo.civInfo.getNation().unique
+		if(civUnique == "1 Free Worker Per City")
+			civInfo.placeUnitNearTile(cityLocation, Constants.worker)
+        
         expansion.reset()
 
         val tile = getCenterTile()
