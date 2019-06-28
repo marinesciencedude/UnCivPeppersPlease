@@ -883,6 +883,43 @@
 			"Hillerod","Sonderborg","Skien","Svendborg","Holbaek","Hjorring","Fladstrand","Haderslev","Ringsted","Skrive"]
 	},
 	*/
+	
+	{
+		name:"Pepperstotzka",
+		adjecective:["Pepperstotzkan"],
+		leaderName:"Glorious Leader",
+		preferredVictoryType:"Domination",
+		
+		startIntroPart1:"Glory to Pepperrstotzka! Infallible Head of the Ministries of Pepperstotzka, your people look upon you once again to guide them in times of darkness and to bring Pepperstotzka back to the golden days! How you do this is of course up to your discretion. You have one of the greatest nations in the world at your disposal with it's famed workforce and infamous armies.",
+		startIntroPart2:"The Pepperstotzkan Ministries look up onto you once again, waiting for their commands, waiting for you to lead them to glory! Head of the Ministries of Pepperstotzka, Can you build a civilization that will stand the test of time?",
+		
+		declaringWar:"Maybe you should not have come. Now we are forced to go to war.",
+		attacked:"You have made a mistake coming here. Now we are forced to go to war.",
+		defeated:"This is incorrect. You cannot have beaten Glorious Pepperstotzka.",
+		introduction:"Peppers, Please. Welcome to Glorious Pepperstotzka.",
+		
+		neutralHello:["Peppers, Please.","Cause no trouble."],
+		neutralLetsHearIt:"Peppers, Please.",
+		neutralNo:"This is incorrect.",
+		neutralYes:"Cause no trouble.",
+		
+		hateHello:"You cannot enter using expired peppers.",
+		hateLetsHearIt:"Peppers, Please.",
+		hateNo:"This is incorrect.",
+		hateYes:"Cause no trouble.",
+		
+		afterPeace:"Pepperstotzka will remember this past war.",
+		tradeRequest:"Here.",
+		
+		mainColor:[59,71,59],
+		secondaryColor:[209,235,209],
+		uniqueName:"Glory to Pepperstotzka!",
+		unique:["-1 Hapiness Per City, +1 Production per 5 Citizens, -1 Food per 5 Citizens","1 Free Worker Per City"],
+		cities:["East Spicestin","Orvech Flavour","Pepperdizna","Nearsk","Greensistora","Lendiforma","Wheatenfield","Forestesdo","Applean","Vestillo",
+			"Burntton","Octopusvalis","Bryansk","Tver'","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
+			"Arkhangel'sk","Chelyabinsk","Tobol'sk","Vologda","Omsk","Astrakhan'","Kursk","Saratov","Tula","Vladimir",
+			"Perm'","Voronezh","Pskov","Staraya Russa","Kostroma","Nizhniy Novgorod","Suzdal'","Magnitogorsk"]
+	},
 
 	//City states
 	{
